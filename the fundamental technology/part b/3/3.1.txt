@@ -1,0 +1,12 @@
+3.1
+The first part, Streamlit UI, is an app that collects the information that customers need to fill in and converts it into data, 
+and the statements mainly design the app's interface and transform the data; 
+the second part, FASTAPI, is a data framework used to create the API and build the model; 
+the third part, Postgres, is an open source database used as data storage and is known as one of the best SQL database; 
+the fourth part, JupyterLab, analyzes the data using the machine learning model built
+  
+
+The user fills in the information in the app designed by Streamlit UI into machine language and data, 
+ the data is referenced by the machine learning model lock used by FASTAPI,   
+then JupyterLab is used to analyse the data using the built machine learning model, and finally returned to the customer via Postgres.
+
